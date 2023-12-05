@@ -2,6 +2,30 @@
 
 ## Based on Airflow
 
+```
+.
+├── dags
+│   ├── system_trading
+│   │   ├── dart.py
+│   │   ├── fdr.py
+│   │   └── pykrx.py
+├── plugins
+│   └── system_trading
+│       ├── __init__.py
+│       ├── api_loader
+│       │   ├── __init__.py
+│       │   ├── dart.py
+│       │   ├── fdr.py
+│       │   ├── private.py
+│       │   └── pykrx.py
+│       └── controller
+│           ├── __init__.py
+│           ├── db.py
+│           └── private.py
+
+~/airflow (tree)
+```
+
 ### Dart
 ![image](./README_ASSETS/dart.png)
 - dart
